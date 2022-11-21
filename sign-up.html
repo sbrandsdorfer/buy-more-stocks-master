@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="./styling.css">
+    <script src="./sign-up.js"></script>
+</head>
+
+<body>
+    <form>
+        <div>
+
+            <input name="username" placeholder="User Name" type="text">
+        </div>
+        <div>
+            <input type="text" id="password" placeholder="Enter Your password">
+            <ul>
+                <li id="valid_min_8">Minumun 8 Characters</li>
+                <li id="valid_upper">At least one Upper case</li>
+                <li id="valid_lower">At least one Lower case</li>
+                <li id="valid_one_num">At least one numerical Character</li>
+                <li id="valid_special_char">At least one Special Character</li>
+            </ul>
+        </div>
+        <div>
+            <input type="password" placeholder="Confirm Your password">
+        </div>
+    </form>
+
+</body>
+
+</html>
